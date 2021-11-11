@@ -1,0 +1,44 @@
+{
+    "sites":[
+        {
+            "site": "",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "site": "signup",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "site": "dashboard",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "listar",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "listarchofer",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "actualizar",
+            "access": "private",
+            "role": "user"
+        },
+        {
+            "site": "imagenes",
+            "access": "private",
+            "role": "user"
+        }
+
+    ],
+    "default-sites":{
+        "user": "dashboard",
+        "admin": "dashboard"
+    }
+}

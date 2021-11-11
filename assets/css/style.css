@@ -1,0 +1,35 @@
+.my{
+    width: 400px; 
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.input-error.input-error-activo{
+  font-size: 14px;
+  color: #0075ff;
+  margin-top: 5px;
+  margin-bottom: 0;
+  display: block;
+}
+.input-error{
+  display: none;
+}
+.ok{
+  margin: 40px;
+}
+.off{
+  background-color: rgb(69, 179, 157);
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+}
+.on{
+  background-color: rgb(226, 107, 87);
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+}
