@@ -27,6 +27,11 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `chofer`
 --
 
+DROP DATABASE IF EXISTS ubermvc;
+
+CREATE DATABASE IF NOT EXISTS ubermvc;
+USE ubermvc;
+
 CREATE TABLE `chofer` (
   `idchofer` int(11) NOT NULL,
   `nombres` varchar(100) NOT NULL,
