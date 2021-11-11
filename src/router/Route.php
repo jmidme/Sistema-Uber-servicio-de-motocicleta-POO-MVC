@@ -9,7 +9,6 @@ class Route{
         return;
     }
     public static function get($uri, $function = null){
-        // error_log('Route::get');
         return Route::add('GET', $uri, $function);
     }
     public static function post($uri, $function = null){
